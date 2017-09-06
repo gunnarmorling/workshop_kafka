@@ -49,10 +49,6 @@
                         <goals>
                             <goal>schema</goal>
                         </goals>
-                        <configuration>
-                            <sourceDirectory>${project.basedir}/src/main/avro/</sourceDirectory>
-                            <outputDirectory>${project.basedir}/src/main/java/</outputDirectory>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
